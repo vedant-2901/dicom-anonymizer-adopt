@@ -18,3 +18,9 @@ Install required libraries:
 
 ```bash
 pip install -r requirements.txt
+
+conda install -c conda-forge gdcm
+
+python anonymize_dicom.py -i /path/to/input_dicom -o /path/to/output_dicom
+
+python anonymize_dicom.py -i input_dir -o output_dir -v
